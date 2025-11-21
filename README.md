@@ -1,25 +1,3 @@
-<style>
-@keyframes blink {
-  0%, 50% { opacity: 1; }
-  51%, 100% { opacity: 0.3; }
-}
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.6; }
-}
-@keyframes progress {
-  0% { width: 0%; }
-  100% { width: 58.9%; }
-}
-.cracking {
-  animation: blink 1s infinite;
-  color: #00FF00;
-}
-.progress-bar {
-  background: #00FF00;
-  animation: pulse 2s infinite;
-}
-</style>
 
 <pre style="color: #00FF00;">
 What's security? I don't know. When I'm looking at a system's defenses,
@@ -210,13 +188,13 @@ operator = RedTeamer()
 │ Wordlist: /usr/share/wordlists/rockyou.txt               │
 │ Dictionary Size: 14,344,391 entries                     │
 │                                                          │
-│ Speed: <span style="color: #00FF00; animation: pulse 1.5s infinite;">1,234,567 H/s</span> (GPU: NVIDIA RTX 4090)             │
-│ Attempts: <span style="color: #00FF00; animation: pulse 1.5s infinite;">8,456,789</span> / 14,344,391 (<span style="color: #00FF00;">58.9%</span>)                │
+│ Speed: <span style="color: #00FF00;">1,234,567 H/s</span> (GPU: NVIDIA RTX 4090)             │
+│ Attempts: <span style="color: #00FF00;">8,456,789</span> / 14,344,391 (<span style="color: #00FF00;">58.9%</span>)                │
 │                                                          │
-│ Progress: <span style="color: #00FF00; animation: pulse 1s infinite;">████████████████████░░░░░░░░░░</span> 58.9%           │
+│ Progress: <span style="color: #00FF00;">████████████████████░░░░░░░░░░</span> 58.9%           │
 │                                                          │
-│ Current Attempt: <span style="color: #00FF00; font-weight: bold; animation: pulse 0.8s infinite;">"password123"</span>                           │
-│ Status: <span class="cracking">CRACKING...</span>                                      │
+│ Current Attempt: <span style="color: #00FF00; font-weight: bold;">"password123"</span>                           │
+│ Status: <span style="color: #00FF00;">CRACKING...</span>                                      │
 │                                                          │
 │ Time Elapsed: <span style="color: #00FF00;">00:06:52</span>                                   │
 │ ETA: <span style="color: #00FF00;">00:04:48</span>                                            │
@@ -239,9 +217,9 @@ operator = RedTeamer()
 │ <span style="color: #00FF00;">[00:02:48]</span> Trying: "admin"                               │
 │ <span style="color: #00FF00;">[00:04:12]</span> Trying: "letmein"                            │
 │ <span style="color: #00FF00;">[00:05:34]</span> Trying: "welcome"                            │
-│ <span style="color: #00FF00; font-weight: bold; animation: pulse 0.8s infinite;">[00:06:52]</span> Trying: <span style="color: #00FF00; font-weight: bold; animation: pulse 0.8s infinite;">"password123"</span>                        │
+│ <span style="color: #00FF00; font-weight: bold;">[00:06:52]</span> Trying: <span style="color: #00FF00; font-weight: bold;">"password123"</span>                        │
 │                                                          │
-│ Status: <span class="cracking">Still cracking...</span>                                │
+│ Status: <span style="color: #00FF00;">Still cracking...</span>                                │
 └─────────────────────────────────────────────────────────┘
 </pre>
 
