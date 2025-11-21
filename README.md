@@ -45,7 +45,7 @@
 
 ## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>cat /proc/self/status</code>
 
-```
+<pre>
 ╔═══════════════════════════════════════════════════════╗
 ║  VULNERABILITY ASSESSMENT IN PROGRESS                  ║
 ║  CVE-2024-XXXX: SQL Injection Detected                ║
@@ -58,12 +58,12 @@
 │  AMOR FATI: EMBRACE THE BREACH, LEARN FROM THE LOG      │
 └─────────────────────────────────────────────────────────┘
 
-<pre style="color: #00FF00;">[*]</pre> Scanning target: 192.168.1.0/24
-<pre style="color: #00FF00;">[*]</pre> Enumerating services: 23 hosts discovered
-<pre style="color: #00FF00;">[*]</pre> Vulnerability scan: 47 findings identified
-<pre style="color: #00FF00;">[*]</pre> Generating penetration test report...
-<pre style="color: #00FF00;">[+]</pre> Threat intelligence feed: Updated
-```
+<span style="color: #00FF00;">[*]</span> Scanning target: 192.168.1.0/24
+<span style="color: #00FF00;">[*]</span> Enumerating services: 23 hosts discovered
+<span style="color: #00FF00;">[*]</span> Vulnerability scan: 47 findings identified
+<span style="color: #00FF00;">[*]</span> Generating penetration test report...
+<span style="color: #00FF00;">[+]</span> Threat intelligence feed: Updated
+</pre>
 
 <details>
 <summary><code style="color: #00FF00;">root@MauriceOS:~$</code> <code>./init.sh</code></summary>
