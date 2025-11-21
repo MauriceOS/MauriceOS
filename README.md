@@ -1,4 +1,4 @@
-<div style="display: none;">
+<!--
 <style>
 @keyframes blink {
   0%, 50% { opacity: 1; }
@@ -21,7 +21,7 @@
   animation: pulse 2s infinite;
 }
 </style>
-</div>
+-->
 
 <pre style="color: #00FF00;">
 What's security? I don't know. When I'm looking at a system's defenses,
