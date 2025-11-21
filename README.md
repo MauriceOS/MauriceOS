@@ -1,36 +1,23 @@
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=root@MauriceOS:~$+whoami;MauriceOS+%7C+Red+Team+%7C+AI+Solutions" alt="Typing SVG" />
-</div>
-
 <pre style="color: #00FF00;">
-╔═══════════════════════════════════════════════════════════════════════════╗
-║                                                                           ║
-║     ███╗   ███╗ █████╗ ██╗   ██╗██████╗ ██╗ ██████╗ ███████╗              ║
-║     ████╗ ████║██╔══██╗██║   ██║██╔══██╗██║██╔═══██╗██╔════╝              ║
-║     ██╔████╔██║███████║██║   ██║██████╔╝██║██║   ██║███████╗              ║
-║     ██║╚██╔╝██║██╔══██║██║   ██║██╔══██╗██║██║   ██║╚════██║              ║
-║     ██║ ╚═╝ ██║██║  ██║╚██████╔╝██║  ██║██║╚██████╔╝███████║              ║
-║     ╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝ ╚═════╝ ╚══════╝              ║
-║                                                                           ║
-║                    ██████╗ ███████╗███████╗                               ║
-║                    ██╔══██╗██╔════╝██╔════╝                               ║
-║                    ██████╔╝███████╗███████╗                               ║
-║                    ██╔══██╗╚════██║╚════██║                               ║
-║                    ██║  ██║███████║███████║                               ║
-║                    ╚═╝  ╚═╝╚══════╝╚══════╝                               ║
-║                                                                           ║
-║     ═══════════════════════════════════════════════════════════════════   ║
-║     [ RED TEAM OPERATOR ] [ AI SECURITY ARCHITECT ] [ PENETRATION TEST ] ║
-║     ═══════════════════════════════════════════════════════════════════   ║
-║                                                                           ║
-╚═══════════════════════════════════════════════════════════════════════════╝
+What's security? I don't know. When I'm looking at a system's defenses,
+I think "Whoa! This system has no idea what it's defending against!"
+And yet, what does the system do? Does it panic?
+No, it can't really panic, it just does the best it can.
+Is it able to live in a world where it's so vulnerable?
+Well, it doesn't really have a choice.
+The system is okay, even though it doesn't really understand the threats.
+You're that system looking at the attacker, and you're thinking to yourself
+"I can defend this!"
+Maybe you have some security ideas. Maybe that's the best you can do.
+~ Maurice OS
 </pre>
 
-<div align="center">
-  <h3><code style="color: #00FF00;">root@MauriceOS:~$</code> <code>whoami</code></h3>
-  <p><code style="color: #00FF00;">[RED_TEAM]</code> <code style="color: #00FF00;">[AI_ARCHITECT]</code> <code style="color: #00FF00;">[PENETRATION_TESTER]</code></p>
-  <p><em>"Calmly breaking things (for good)"</em></p>
-</div>
+<pre style="color: #00FF00;">
+=[ MauriceOS v1.0.0-dev ]
++ --=[ root@MauriceOS:~$ whoami ]
++ --=[ MauriceOS | Red Team Operator | AI Security Architect ]
++ --=[ "Calmly breaking things (for good)" ]
+</pre>
 
 <div align="center">
   
