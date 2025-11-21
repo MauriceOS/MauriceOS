@@ -1,3 +1,26 @@
+<style>
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0.3; }
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+@keyframes progress {
+  0% { width: 0%; }
+  100% { width: 58.9%; }
+}
+.cracking {
+  animation: blink 1s infinite;
+  color: #00FF00;
+}
+.progress-bar {
+  background: #00FF00;
+  animation: pulse 2s infinite;
+}
+</style>
+
 <pre style="color: #00FF00;">
 What's security? I don't know. When I'm looking at a system's defenses,
 I think "Whoa! This system has no idea what it's defending against!"
@@ -175,29 +198,6 @@ operator = RedTeamer()
 ## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>hashcat -m 0 -a 0 hash.txt rockyou.txt</code>
 
 <div align="center">
-
-<style>
-@keyframes blink {
-  0%, 50% { opacity: 1; }
-  51%, 100% { opacity: 0.3; }
-}
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.6; }
-}
-@keyframes progress {
-  0% { width: 0%; }
-  100% { width: 58.9%; }
-}
-.cracking {
-  animation: blink 1s infinite;
-  color: #00FF00;
-}
-.progress-bar {
-  background: #00FF00;
-  animation: pulse 2s infinite;
-}
-</style>
 
 <pre>
 ╔═══════════════════════════════════════════════════════════╗
