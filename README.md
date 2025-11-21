@@ -30,7 +30,6 @@
 ┌─[SYSTEM_STATUS]────────────────────────────────────┐
 │ ACCESS_LEVEL: LEVEL_3_AUTHORIZED                  │
 │ SECURITY_CLEARANCE: RED_TEAM_OPERATOR             │
-│ PROFILE_VIEWS: </pre>![Profile Views](https://komarev.com/ghpvc/?username=MauriceOS&color=00FF00&style=flat-square)<pre style="color: #00FF00;">                    │
 │ MODE: STEALTH                                    │
 │ ENCRYPTION: AES-256-GCM                           │
 │ CONNECTION: SECURE_TUNNEL_ACTIVE                  │
@@ -120,35 +119,54 @@ operator = RedTeamer()
 
 ---
 
-## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>./stats.sh</code>
+<details>
+<summary><code style="color: #00FF00;">root@MauriceOS:~$</code> <code>./stats.sh</code></summary>
 
 <div align="center">
   
-  <code style="color: #00FF00;">┌─[GITHUB_METRICS]────────────────────────────────┐</code>
+  <pre style="color: #00FF00;">
+┌─[GITHUB_METRICS]────────────────────────────────┐
+  </pre>
   
   ![MauriceOS's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MauriceOS&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=00FF00&text_color=FFFFFF&border_color=00FF00)
   
-  <code style="color: #00FF00;">└────────────────────────────────────────────────┘</code>
+  <pre style="color: #00FF00;">
+└────────────────────────────────────────────────┘
+  </pre>
   
-  <code style="color: #00FF00;">┌─[CONTRIBUTION_STREAK]────────────────────────────┐</code>
+  <pre style="color: #00FF00;">
+┌─[CONTRIBUTION_STREAK]────────────────────────────┐
+  </pre>
   
   ![GitHub Streak](https://github-readme-streak-stats.demolab.com/?user=MauriceOS&theme=dark&hide_border=true&background=0D1117&ring=00FF00&fire=00FF00&currStreakLabel=00FF00&border=00FF00)
   
-  <code style="color: #00FF00;">└────────────────────────────────────────────────┘</code>
+  <pre style="color: #00FF00;">
+└────────────────────────────────────────────────┘
+  </pre>
   
-  <code style="color: #00FF00;">┌─[LANGUAGE_USAGE]─────────────────────────────────┐</code>
+  <pre style="color: #00FF00;">
+┌─[LANGUAGE_USAGE]─────────────────────────────────┐
+  </pre>
   
   ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MauriceOS&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=FFFFFF&border_color=00FF00)
   
-  <code style="color: #00FF00;">└────────────────────────────────────────────────┘</code>
+  <pre style="color: #00FF00;">
+└────────────────────────────────────────────────┘
+  </pre>
   
-  <code style="color: #00FF00;">┌─[ACTIVITY_GRAPH]──────────────────────────────────┐</code>
+  <pre style="color: #00FF00;">
+┌─[ACTIVITY_GRAPH]──────────────────────────────────┐
+  </pre>
   
   ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=MauriceOS&theme=green&hide_border=true&bg_color=0D1117&color=00FF00&line=00FF00&point=FFFFFF)
   
-  <code style="color: #00FF00;">└────────────────────────────────────────────────┘</code>
+  <pre style="color: #00FF00;">
+└────────────────────────────────────────────────┘
+  </pre>
   
 </div>
+
+</details>
 
 ---
 
@@ -156,7 +174,30 @@ operator = RedTeamer()
 
 <div align="center">
 
-```
+<style>
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0.3; }
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+@keyframes progress {
+  0% { width: 0%; }
+  100% { width: 58.9%; }
+}
+.cracking {
+  animation: blink 1s infinite;
+  color: #00FF00;
+}
+.progress-bar {
+  background: #00FF00;
+  animation: pulse 2s infinite;
+}
+</style>
+
+<pre>
 ╔═══════════════════════════════════════════════════════════╗
 ║           <span style="color: #00FF00;">HASH CRACKING SIMULATOR</span>                         ║
 ╚═══════════════════════════════════════════════════════════╝
@@ -167,40 +208,40 @@ operator = RedTeamer()
 │ Wordlist: /usr/share/wordlists/rockyou.txt               │
 │ Dictionary Size: 14,344,391 entries                     │
 │                                                          │
-│ Speed: <span style="color: #00FF00;">1,234,567 H/s</span> (GPU: NVIDIA RTX 4090)             │
-│ Attempts: <span style="color: #00FF00;">8,456,789</span> / 14,344,391 (<span style="color: #00FF00;">58.9%</span>)                │
+│ Speed: <span style="color: #00FF00; animation: pulse 1.5s infinite;">1,234,567 H/s</span> (GPU: NVIDIA RTX 4090)             │
+│ Attempts: <span style="color: #00FF00; animation: pulse 1.5s infinite;">8,456,789</span> / 14,344,391 (<span style="color: #00FF00;">58.9%</span>)                │
 │                                                          │
-│ Progress: <span style="color: #00FF00;">████████████████████░░░░░░░░░░</span> 58.9%           │
+│ Progress: <span style="color: #00FF00; animation: pulse 1s infinite;">████████████████████░░░░░░░░░░</span> 58.9%           │
 │                                                          │
-│ Current Attempt: <span style="color: #00FF00; font-weight: bold;">"password123"</span>                           │
-│ Status: <span style="color: #00FF00; animation: blink 1s infinite;">CRACKING...</span>                                      │
+│ Current Attempt: <span style="color: #00FF00; font-weight: bold; animation: pulse 0.8s infinite;">"password123"</span>                           │
+│ Status: <span class="cracking">CRACKING...</span>                                      │
 │                                                          │
-│ Time Elapsed: 00:06:52                                   │
-│ ETA: 00:04:48                                            │
+│ Time Elapsed: <span style="color: #00FF00;">00:06:52</span>                                   │
+│ ETA: <span style="color: #00FF00;">00:04:48</span>                                            │
 └─────────────────────────────────────────────────────────┘
+</pre>
 
-<pre style="color: #00FF00; display: inline;">[*]</pre> Session: hashcat_session_2024<br>
-<pre style="color: #00FF00; display: inline;">[*]</pre> Rules: Best64.rule applied<br>
-<pre style="color: #00FF00; display: inline;">[*]</pre> Optimized Kernel: Yes<br>
-<pre style="color: #00FF00; display: inline;">[*]</pre> Device: GPU #1 (NVIDIA GeForce RTX 4090)<br>
-<pre style="color: #00FF00; display: inline;">[*]</pre> Workload Profile: 3 (High Performance)
-```
+<span style="color: #00FF00;">[*]</span> Session: hashcat_session_2024<br>
+<span style="color: #00FF00;">[*]</span> Rules: Best64.rule applied<br>
+<span style="color: #00FF00;">[*]</span> Optimized Kernel: Yes<br>
+<span style="color: #00FF00;">[*]</span> Device: GPU #1 (NVIDIA GeForce RTX 4090)<br>
+<span style="color: #00FF00;">[*]</span> Workload Profile: 3 (High Performance)
 
 <details>
 <summary><code style="color: #00FF00;">[ATTEMPT LOG]</code></summary>
 
-```
+<pre>
 ┌─[ATTEMPT LOG]────────────────────────────────────────────┐
 │ <span style="color: #00FF00;">[00:00:15]</span> Trying: "password"                           │
 │ <span style="color: #00FF00;">[00:01:32]</span> Trying: "123456"                              │
 │ <span style="color: #00FF00;">[00:02:48]</span> Trying: "admin"                               │
 │ <span style="color: #00FF00;">[00:04:12]</span> Trying: "letmein"                            │
 │ <span style="color: #00FF00;">[00:05:34]</span> Trying: "welcome"                            │
-│ <span style="color: #00FF00; font-weight: bold;">[00:06:52]</span> Trying: "password123"                        │
+│ <span style="color: #00FF00; font-weight: bold; animation: pulse 0.8s infinite;">[00:06:52]</span> Trying: <span style="color: #00FF00; font-weight: bold; animation: pulse 0.8s infinite;">"password123"</span>                        │
 │                                                          │
-│ Status: Still cracking...                                │
+│ Status: <span class="cracking">Still cracking...</span>                                │
 └─────────────────────────────────────────────────────────┘
-```
+</pre>
 
 </details>
 
@@ -267,7 +308,8 @@ operator = RedTeamer()
 
 ---
 
-## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>cat /etc/contact</code>
+<details>
+<summary><code style="color: #00FF00;">root@MauriceOS:~$</code> <code>cat /etc/contact</code></summary>
 
 <div align="center">
   
@@ -282,6 +324,8 @@ operator = RedTeamer()
   <sub><span style="color: #00FF00;">[*]</span> Interfacing via secure channel...</sub>
   
 </div>
+
+</details>
 
 ---
 
