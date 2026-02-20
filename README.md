@@ -69,6 +69,7 @@ def protocol_amor_fati(node):
 ### 0x04 | SECURE_HANDSHAKE
 
 ```text
+[PUB_KEY]  : ./GPG.txt
 [GPG_FP]   : 0x60B172669D4B329C (60B1 7266 9D4B 329C DB99 CB06 F1BC 40DF 12A3 D362)
 [MSG_ENC]  : 53 65 6e 64 20 61 20 64 6d 20 6f 6e 20 4c 69 6e 6b 65 64 49 6e
 [CANARY]   : No warrants. No compromises. Last Pulse: 2026-02-21
