@@ -1,9 +1,19 @@
 # [ 0xMauriceOS ]
 
 ```text
+       _..._
+     .'     '.      [!] ENCRYPTED UPLINK ESTABLISHED
+    /  _   _  \     [!] NODE: DARWIN_X64_PRO
+    | (o) (o) |     [!] AUTH: OSCP_OPERATOR_0x534F
+    |    _    |     [!] TARGETING: GLOBAL_RESILIENCE
+    |   (_)   |     
+    \         /     "Expose the weakness. Build the wall."
+     '. ___ .'      
+```
+
+```text
 [!] SESSION_ESTABLISHED :: AES-256-GCM
-[!] IDENTITY_CONFIRMED  :: 0x534F
-[!] INTEGRITY_CHECK     :: PASSED
+[!] INTEGRITY_CHECK     :: 0x000000 (PASSED)
 ```
 
 ```text
@@ -14,12 +24,12 @@ The system is okay, even though it doesn't really understand the threats."
                                                        ~ Maurice OS
 ```
 
-### 0x00 | KERNEL_LOGS
+### 0x00 | SYSTEM_SPECS
 
 ```text
 [SYSTEM]  Maurice Osoro
 [ROLE]    Red Team Operator | AI Security Architect
-[UPTIME]  28 Repositories Active
+[UPTIME]  28 Active Repositories
 [STATUS]  "Calmly breaking things (for good)"
 ```
 
@@ -62,12 +72,11 @@ def strengthen(system):
 # [Offense] informs [Defense] -> [Resilient Systems]
 ```
 
-### 0x04 | ENCRYPTED_CHANNELS
+### 0x04 | SECURE_CHANNELS
 
 ```text
 [GPG_FP]   : 0x60B172669D4B329C (60B1 7266 9D4B 329C DB99 CB06 F1BC 40DF 12A3 D362)
 [LINKEDIN] : https://linkedin.com/in/maurice-osoro
-[PORTFOLIO]: https://github.com/MauriceOS
 [CANARY]   : No warrants received. No keys surrendered. Last Check: 2026-02-21
 ```
 
