@@ -20,30 +20,6 @@ Maybe you have some security ideas. Maybe that's the best you can do.
 + --=[ "Calmly breaking things (for good)" ]
 </pre>
 
-<div align="center">
-  
-  <pre>
-╔═══════════════════════════════════════════════════════╗
-║              <span style="color: #00FF00;">ACCESS GRANTED</span>                            ║
-║         <span style="color: #00FF00;">LEVEL 3 ACCESS REQUIRED</span>                        ║
-╚═══════════════════════════════════════════════════════╝
-  </pre>
-  
-  <pre style="color: #00FF00;">
-┌─[SYSTEM_STATUS]────────────────────────────────────┐
-│ ACCESS_LEVEL: LEVEL_3_AUTHORIZED                  │
-│ SECURITY_CLEARANCE: RED_TEAM_OPERATOR             │
-│ MODE: STEALTH                                    │
-│ ENCRYPTION: AES-256-GCM                           │
-│ CONNECTION: SECURE_TUNNEL_ACTIVE                  │
-│ FACILITY: OPERATIONAL                             │
-└────────────────────────────────────────────────┘
-  </pre>
-  
-  <sub><span style="color: #00FF00;">[*]</span> Interfacing via secure channel...</sub>
-  
-</div>
-
 ---
 
 ## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>cat /proc/self/status</code>
@@ -107,125 +83,6 @@ operator = RedTeamer()
 ```
 
 </details>
-
-<details>
-<summary><code style="color: #00FF00;">anon@homegroup:-$</code> <code>./scripts/</code></summary>
-
-```bash
-┌─[AVAILABLE_SCRIPTS]──────────────────────────────────┐
-│ Hash, Terminal, Decryptor, Map, Scan, Query, Deploy│
-│ Trace, Neuro, Root, Sequence, Random, Stability     │
-└──────────────────────────────────────────────────────┘
-```
-
-</details>
-
----
-
-<details>
-<summary><code style="color: #00FF00;">root@MauriceOS:~$</code> <code>./stats.sh</code></summary>
-
-<div align="center">
-  
-  <pre style="color: #00FF00;">
-┌─[GITHUB_METRICS]────────────────────────────────┐
-  </pre>
-  
-  ![MauriceOS's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MauriceOS&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=00FF00&text_color=FFFFFF&border_color=00FF00)
-  
-  <pre style="color: #00FF00;">
-└────────────────────────────────────────────────┘
-  </pre>
-  
-  <pre style="color: #00FF00;">
-┌─[CONTRIBUTION_STREAK]────────────────────────────┐
-  </pre>
-  
-  ![GitHub Streak](https://github-readme-streak-stats.demolab.com/?user=MauriceOS&theme=dark&hide_border=true&background=0D1117&ring=00FF00&fire=00FF00&currStreakLabel=00FF00&border=00FF00)
-  
-  <pre style="color: #00FF00;">
-└────────────────────────────────────────────────┘
-  </pre>
-  
-  <pre style="color: #00FF00;">
-┌─[LANGUAGE_USAGE]─────────────────────────────────┐
-  </pre>
-  
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MauriceOS&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=FFFFFF&border_color=00FF00)
-  
-  <pre style="color: #00FF00;">
-└────────────────────────────────────────────────┘
-  </pre>
-  
-  <pre style="color: #00FF00;">
-┌─[ACTIVITY_GRAPH]──────────────────────────────────┐
-  </pre>
-  
-  ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=MauriceOS&theme=green&hide_border=true&bg_color=0D1117&color=00FF00&line=00FF00&point=FFFFFF)
-  
-  <pre style="color: #00FF00;">
-└────────────────────────────────────────────────┘
-  </pre>
-  
-</div>
-
-</details>
-
----
-
-## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>hashcat -m 0 -a 0 hash.txt rockyou.txt</code>
-
-<div align="center">
-
-<pre>
-╔═══════════════════════════════════════════════════════════╗
-║           <span style="color: #00FF00;">HASH CRACKING SIMULATOR</span>                         ║
-╚═══════════════════════════════════════════════════════════╝
-
-┌─[HASHCAT STATUS]─────────────────────────────────────────┐
-│ Hash Type: MD5 ($1$)                                     │
-│ Target Hash: <span style="color: #00FF00;">5f4dcc3b5aa765d61d8327deb882cf99</span>            │
-│ Wordlist: /usr/share/wordlists/rockyou.txt               │
-│ Dictionary Size: 14,344,391 entries                     │
-│                                                          │
-│ Speed: <span style="color: #00FF00;">1,234,567 H/s</span> (GPU: NVIDIA RTX 4090)             │
-│ Attempts: <span style="color: #00FF00;">8,456,789</span> / 14,344,391 (<span style="color: #00FF00;">58.9%</span>)                │
-│                                                          │
-│ Progress: <span style="color: #00FF00;">████████████████████░░░░░░░░░░</span> 58.9%           │
-│                                                          │
-│ Current Attempt: <span style="color: #00FF00; font-weight: bold;">"password123"</span>                           │
-│ Status: <span style="color: #00FF00;">CRACKING...</span>                                      │
-│                                                          │
-│ Time Elapsed: <span style="color: #00FF00;">00:06:52</span>                                   │
-│ ETA: <span style="color: #00FF00;">00:04:48</span>                                            │
-└─────────────────────────────────────────────────────────┘
-</pre>
-
-<span style="color: #00FF00;">[*]</span> Session: hashcat_session_2024<br>
-<span style="color: #00FF00;">[*]</span> Rules: Best64.rule applied<br>
-<span style="color: #00FF00;">[*]</span> Optimized Kernel: Yes<br>
-<span style="color: #00FF00;">[*]</span> Device: GPU #1 (NVIDIA GeForce RTX 4090)<br>
-<span style="color: #00FF00;">[*]</span> Workload Profile: 3 (High Performance)
-
-<details>
-<summary><code style="color: #00FF00;">[ATTEMPT LOG]</code></summary>
-
-<pre>
-┌─[ATTEMPT LOG]────────────────────────────────────────────┐
-│ <span style="color: #00FF00;">[00:00:15]</span> Trying: "password"                           │
-│ <span style="color: #00FF00;">[00:01:32]</span> Trying: "123456"                              │
-│ <span style="color: #00FF00;">[00:02:48]</span> Trying: "admin"                               │
-│ <span style="color: #00FF00;">[00:04:12]</span> Trying: "letmein"                            │
-│ <span style="color: #00FF00;">[00:05:34]</span> Trying: "welcome"                            │
-│ <span style="color: #00FF00; font-weight: bold;">[00:06:52]</span> Trying: <span style="color: #00FF00; font-weight: bold;">"password123"</span>                        │
-│                                                          │
-│ Status: <span style="color: #00FF00;">Still cracking...</span>                                │
-└─────────────────────────────────────────────────────────┘
-</pre>
-
-</details>
-
-</div>
 
 ---
 
@@ -326,9 +183,5 @@ operator = RedTeamer()
 │ [ENCRYPTION] ACTIVE                                 │
 └────────────────────────────────────────────────────┘
   </pre>
-  
-  <p align="center">
-    <code style="color: #00FF00;">anon@homegroup:-$</code> <code>echo "Calmly breaking things (for good)"</code>
-  </p>
   
 </div>
