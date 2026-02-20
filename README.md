@@ -1,4 +1,4 @@
-# 🛡️ MauriceOS - Security Architect & Red Teamer
+# MauriceOS - RED TEAM OPERATOR
 
 ```text
 What's security? I don't know. When I'm looking at a system's defenses,
@@ -11,49 +11,62 @@ You're that system looking at the attacker, and you're thinking to yourself
 ```
 
 <pre style="color: #00FF00;">
-=[ MauriceOS v1.1.0-stable ]
+=[ MauriceOS v2.1.0-LTS ]
 + --=[ root@MauriceOS:~$ whoami ]
-+ --=[ Maurice Osoro | Red Team Operator | AI Security Architect ]
-+ --=[ Location: Mombasa, Kenya | Focus: Resilient Infrastructure ]
-+ --=[ Motto: "Calmly breaking things (for good)" ]
++ --=[ Maurice Osoro | Offensive Security | AI Architecture ]
++ --=[ "Calmly breaking things (for good)" ]
 </pre>
 
 ---
 
-## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>cat /proc/system_stats</code>
+## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>cat /proc/self/status</code>
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=MauriceOS&show_icons=true&theme=dracula&hide_border=true&bg_color=00000000" alt="Maurice's GitHub stats" height="180px" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MauriceOS&layout=compact&theme=dracula&hide_border=true&bg_color=00000000" alt="Top Langs" height="180px" />
-</p>
+<pre style="color: #00FF00;">
+┌─────────────────────────────────────────────────────────┐
+│  FORTITUDE IS MY SECURITY VIRTUE                        │
+│  EXPOSING WEAKNESS TO BUILD RESILIENCE                   │
+│  AMOR FATI: EMBRACE THE BREACH, LEARN FROM THE LOG      │
+└─────────────────────────────────────────────────────────┘
 
----
-
-## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>ls -la /active_ops/</code>
-
-| Project | Status | Description |
-|---------|--------|-------------|
-| **snaktox** | DEPLOYED | AI-powered snakebite emergency response system for Sub-Saharan Africa. |
-| **Elimu-SMS** | BUILDING | School Management System with security-first architecture. |
-| **AI-Pentest** | RESEARCH | Automating reconnaissance using custom LLM agents and Python. |
-| **Yannis Imports** | OPERATIONAL | Branding and digital infrastructure for logistics. |
+<span style="color: #00FF00;">[*]</span> STATUS:         OPERATIONAL
+<span style="color: #00FF00;">[*]</span> EDUCATION:      BSc Cybersecurity (IU) | Soft. Eng (PLP)
+<span style="color: #00FF00;">[*]</span> CERTIFICATIONS: OSCP, CEH, CISSP, AWS (In Progress)
+</pre>
 
 ---
 
-## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>./init_philosophy.sh</code>
+## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>ls -la /opt/active_ops/</code>
+
+| OPERATION | TARGET | STATUS | REPO |
+|-----------|--------|--------|------|
+| snaktox | Health/SSA | DEPLOYED | [link](https://github.com/MauriceOS) |
+| Elimu-SMS | Edu/Management | BUILDING | [link](https://github.com/MauriceOS) |
+| AI-Pentest | Security/Auto | RESEARCH | [link](https://github.com/MauriceOS) |
+| Red-Team-Toolkit | Tooling/OST | OPERATIONAL | [link](https://github.com/MauriceOS) |
+
+---
+
+## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>./init_logic.py</code>
 
 ```python
-class StoicSecurity:
-    def __init__(self):
-        self.virtues = ["Fortitude", "Justice", "Prudence", "Temperance"]
-        self.mindset = "Amor Fati: Love the breach; it reveals the path to strength."
-        
-    def assess(self, vulnerability):
-        # Weakness, once named, becomes a control.
-        return f"Control identified for {vulnerability}"
+#!/usr/bin/env python3
+"""
+[RED_TEAM_MODULE] - Authorized Security Research
+"""
 
-operator = StoicSecurity()
-# [!] Operational Philosophy: Think like the adversary; defend like the architect.
+class RedTeamer:
+    def __init__(self):
+        self.handle = "MauriceOS"
+        self.stack = ["Python", "Kali Linux", "TypeScript", "MongoDB"]
+        self.philosophy = "Fortitude. Resilience. Amor Fati."
+        self.status = "ACTIVE"
+    
+    def evaluate(self, target):
+        """Methodical exploitation for defensive improvement"""
+        # Think like the adversary; defend like the architect.
+        pass
+
+operator = RedTeamer()
 ```
 
 ---
@@ -62,41 +75,36 @@ operator = StoicSecurity()
 
 <pre style="color: #00FF00;">
 ┌─[COMMUNICATION_CHANNELS]──────────────────────────────────┐
-│ 👔 LinkedIn:  <a href="https://www.linkedin.com/in/maurice-osoro/" style="color: #00FF00;">linkedin.com/in/maurice-osoro</a>              │
-│ 🌐 Portfolio: <a href="https://github.com/MauriceOS" style="color: #00FF00;">Maurice Osoro</a> (GitHub)                    │
-│ 🔑 GPG:       0x60B172669D4B329C (60B1 7266 9D4B 329C DB99 CB06 F1BC 40DF 12A3 D362) │
+│                                                           │
+│  LINKEDIN:  <a href="https://linkedin.com/in/maurice-osoro" style="color: #00FF00;">linkedin.com/in/maurice-osoro</a>                │
+│  GITHUB:    <a href="https://github.com/MauriceOS" style="color: #00FF00;">github.com/MauriceOS</a>                        │
+│  GPG_FINGERPRINT: 0x60B172669D4B329C (60B1 7266 9D4B 329C DB99 CB06 F1BC 40DF 12A3 D362) │
+│                                                           │
 └───────────────────────────────────────────────────────────┘
 </pre>
 
 ---
 
-## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>tail -f /var/log/achievements</code>
+## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>tail -f /var/log/syslog</code>
 
 <pre style="color: #00FF00;">
-[OK] OSCP - Offensive Security Certified Professional
-[OK] BSc Cybersecurity - IU International University (In Progress)
-[OK] Software Engineering - PLP Academy
-[OK] Pentester - Active Security Research & Bug Bounty
+[2026-02-21 01:22] - Initializing automated recon on target 192.168.1.0/24
+[2026-02-21 01:25] - Enumerating services: 23 hosts discovered
+[2026-02-21 01:30] - Identifying vulnerabilities: 47 findings cataloged
+[2026-02-21 01:45] - Applying Stoic principles to incident response...
+[2026-02-21 02:00] - SESSION PERSISTENT: NO PANIC DETECTED.
 </pre>
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=auto&height=20&section=footer" width="100%" alt="" />
-</p>
-
-<pre style="color: #00FF00;" align="center">
-[SESSION_STATUS] OPERATIONAL | [MODE] STEALTH | [ENCRYPTION] ACTIVE
-</pre>
-
 <div align="center">
 
-  ```
-  ════════════════════════════════════════════════════════
-  [DISCLAIMER]
-  All security research and tools are developed for
-  educational and authorized testing purposes only.
-  ════════════════════════════════════════════════════════
-  ```
+```
+═════════════════════════════════════════════════════════
+[DISCLAIMER]
+All security research and tools are developed for
+educational and authorized testing purposes only.
+═════════════════════════════════════════════════════════
+```
 
 </div>
