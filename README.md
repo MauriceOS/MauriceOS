@@ -32,7 +32,7 @@ The system is okay, even though it doesn't really understand the threats."
 [SIG]      "Calmly breaking things (for good)"
 ```
 
-### 0x01 | ARSENAL_ENUMERATION
+### 0x01 | BINARY_STACK
 
 ```text
 [VECTOR_A] :  [Metasploit, Cobalt Strike, Burp Suite]
@@ -52,21 +52,7 @@ HEX_REF        IDENT            STATE               LAYER
 0xC43D         Toolkit-OST      DISTRIBUTED         Red-Core
 ```
 
-### 0x03 | HEURISTICS
-
-```python
-# Low-level entropy management.
-# Expose to strengthen.
-
-def protocol_amor_fati(node):
-    while node.vulnerable:
-        # Weakness, once named, becomes a control.
-        path = node.identify_breach()
-        node.patch_and_evolve(path)
-        yield 0x01 # STABILITY_UP
-```
-
-### 0x04 | SECURE_HANDSHAKE
+### 0x03 | SECURE_HANDSHAKE
 
 ```text
 [PUB_KEY]  : ./GPG.txt
@@ -76,7 +62,7 @@ def protocol_amor_fati(node):
              Last Pulse: [pulse.log](pulse.log)
 ```
 
-### 0x05 | LOG_TRAIL
+### 0x04 | LOG_TRAIL
 
 ```text
 [0x0001] [OK] OSCP_VALIDATED
