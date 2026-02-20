@@ -27,8 +27,8 @@ Maybe you have some security ideas. Maybe that's the best you can do.
 <pre>
 ╔═══════════════════════════════════════════════════════╗
 ║  VULNERABILITY ASSESSMENT IN PROGRESS                  ║
-║  CVE-2024-XXXX: SQL Injection Detected                ║
-║  CVE-2024-YYYY: Remote Code Execution Identified      ║
+║  CVE-2026-2006: PostgreSQL RCE (Arbitrary Code Exec)  ║
+║  CVE-2026-1861: Chrome libvpx Heap Overflow / RCE     ║
 ╚═══════════════════════════════════════════════════════╝
 
 ┌─────────────────────────────────────────────────────────┐
@@ -130,16 +130,16 @@ operator = RedTeamer()
 ┌─────────────────────────────────────────────────────────┐
 │  OPERATIONAL PHILOSOPHY                                  │
 ├─────────────────────────────────────────────────────────┤
-│  "Calmly breaking things (for good)"                       │
-│  → Methodical, ethical security testing                  │
+│  Think like the adversary; defend like the architect.   │
+│  → Red team rigor, blue team ownership.                  │
 │                                                          │
-│  "Fortitude is my security virtue"                       │
-│  → Building resilience through exposure                  │
+│  Weakness, once named, becomes a control.                │
+│  → Find it first, fix it, then document.                │
 │                                                          │
-│  "Embrace the breach, learn from the log"               │
-│  → Every incident is a lesson                            │
+│  Automation scales judgment, not replaces it.           │
+│  → AI augments the operator; the operator decides.      │
 │                                                          │
-│  [AI/ML] + [Traditional Security] = Enhanced Defense    │
+│  [Offense] informs [Defense] → [Resilient Systems]      │
 └─────────────────────────────────────────────────────────┘
 ```
 
