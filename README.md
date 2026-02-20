@@ -1,173 +1,96 @@
+# 🛡️ MauriceOS - Security Architect & Red Teamer
 
-<pre style="color: #00FF00;">
+```text
 What's security? I don't know. When I'm looking at a system's defenses,
 I think "Whoa! This system has no idea what it's defending against!"
-And yet, what does the system do? Does it panic?
-No, it can't really panic, it just does the best it can.
-Is it able to live in a world where it's so vulnerable?
-Well, it doesn't really have a choice.
+And yet, what does the system do? It does the best it can.
 The system is okay, even though it doesn't really understand the threats.
 You're that system looking at the attacker, and you're thinking to yourself
 "I can defend this!"
-Maybe you have some security ideas. Maybe that's the best you can do.
 ~ Maurice OS
-</pre>
+```
 
 <pre style="color: #00FF00;">
-=[ MauriceOS v1.0.0-dev ]
+=[ MauriceOS v1.1.0-stable ]
 + --=[ root@MauriceOS:~$ whoami ]
-+ --=[ MauriceOS | Red Team Operator | AI Security Architect ]
-+ --=[ "Calmly breaking things (for good)" ]
++ --=[ Maurice Osoro | Red Team Operator | AI Security Architect ]
++ --=[ Location: Mombasa, Kenya | Focus: Resilient Infrastructure ]
++ --=[ Motto: "Calmly breaking things (for good)" ]
 </pre>
 
 ---
 
-## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>cat /proc/self/status</code>
+## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>cat /proc/system_stats</code>
 
-<pre>
-╔═══════════════════════════════════════════════════════╗
-║  VULNERABILITY ASSESSMENT IN PROGRESS                  ║
-║  CVE-2026-2006: PostgreSQL RCE (Arbitrary Code Exec)  ║
-║  CVE-2026-1861: Chrome libvpx Heap Overflow / RCE     ║
-╚═══════════════════════════════════════════════════════╝
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=MauriceOS&show_icons=true&theme=dracula&hide_border=true&bg_color=00000000" alt="Maurice's GitHub stats" height="180px" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MauriceOS&layout=compact&theme=dracula&hide_border=true&bg_color=00000000" alt="Top Langs" height="180px" />
+</p>
 
-┌─────────────────────────────────────────────────────────┐
-│  FORTITUDE IS MY SECURITY VIRTUE                        │
-│  EXPOSING WEAKNESS TO BUILD RESILIENCE                   │
-│  AMOR FATI: EMBRACE THE BREACH, LEARN FROM THE LOG      │
-└─────────────────────────────────────────────────────────┘
+---
 
-<span style="color: #00FF00;">[*]</span> Scanning target: 192.168.1.0/24
-<span style="color: #00FF00;">[*]</span> Enumerating services: 23 hosts discovered
-<span style="color: #00FF00;">[*]</span> Vulnerability scan: 47 findings identified
-<span style="color: #00FF00;">[*]</span> Generating penetration test report...
-<span style="color: #00FF00;">[+]</span> Threat intelligence feed: Updated
-</pre>
+## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>ls -la /active_ops/</code>
 
-<details>
-<summary><code style="color: #00FF00;">root@MauriceOS:~$</code> <code>./init.sh</code></summary>
+| Project | Status | Description |
+|---------|--------|-------------|
+| **snaktox** | DEPLOYED | AI-powered snakebite emergency response system for Sub-Saharan Africa. |
+| **Elimu-SMS** | BUILDING | School Management System with security-first architecture. |
+| **AI-Pentest** | RESEARCH | Automating reconnaissance using custom LLM agents and Python. |
+| **Yannis Imports** | OPERATIONAL | Branding and digital infrastructure for logistics. |
+
+---
+
+## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>./init_philosophy.sh</code>
 
 ```python
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-[RED_TEAM_MODULE] - Authorized Security Research
-"""
-
-class RedTeamer:
+class StoicSecurity:
     def __init__(self):
-        self.handle = "MauriceOS"
-        self.role = ["Red Team Operator", "AI Security Architect"]
-        self.motto = "Calmly breaking things (for good)"
-        self.philosophy = "Fortitude. Resilience. Amor Fati."
-        self.current_ops = [
-            "Penetration Testing",
-            "AI-Powered Security Automation",
-            "Vulnerability Research",
-            "Threat Intelligence",
-            "ML-based Security Solutions"
-        ]
-        self.status = "ACTIVE"
-    
-    def attack(self, target):
-        """Methodical exploitation for defensive improvement"""
-        vulns = self.enumerate_vulnerabilities(target)
-        return self.report_and_remediate(vulns)
-    
-    def defend(self, system):
-        """AI-enhanced defensive posturing"""
-        model = self.train_security_model(system)
-        return self.deploy_protection(model)
+        self.virtues = ["Fortitude", "Justice", "Prudence", "Temperance"]
+        self.mindset = "Amor Fati: Love the breach; it reveals the path to strength."
+        
+    def assess(self, vulnerability):
+        # Weakness, once named, becomes a control.
+        return f"Control identified for {vulnerability}"
 
-operator = RedTeamer()
-```
-
-</details>
-
----
-
-<details>
-<summary><code style="color: #00FF00;">root@MauriceOS:~$</code> <code>ls -la /opt/tools/</code></summary>
-
-```
-[EXPLOITATION_FRAMEWORKS] Metasploit | Cobalt Strike | Burp Suite
-[NETWORK_ANALYSIS] Wireshark | Nmap | tcpdump | Masscan
-[SCRIPTING] Python 3.x | Bash | PowerShell | Go
-[AI/ML] TensorFlow | PyTorch | Scikit-learn | Custom ML Models
-[INFRASTRUCTURE] Docker | Kubernetes | AWS | Linux
-```
-
-</details>
-
-<details>
-<summary><code style="color: #00FF00;">root@MauriceOS:~$</code> <code>find ~/projects</code></summary>
-
-```
-[RED_TEAM] ai-pentest-framework | threat-intel-aggregator | custom-exploit-dev
-[AI_SECURITY] anomaly-detection | auto-incident-response | behavioral-analysis
-[OPEN_SOURCE] security-tooling | ai-cybersecurity-models | educational-resources
-```
-
-</details>
-
-<details>
-<summary><code style="color: #00FF00;">root@MauriceOS:~$</code> <code>cat /etc/credentials</code></summary>
-
-```
-[OSCP] Offensive Security Certified Professional
-[CEH] Certified Ethical Hacker
-[CISSP] Certified Information Systems Security
-[AWS] Amazon Web Services Certified
-```
-
-</details>
-
----
-
-## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>cat ~/.philosophy</code>
-
-```
-┌─────────────────────────────────────────────────────────┐
-│  OPERATIONAL PHILOSOPHY                                  │
-├─────────────────────────────────────────────────────────┤
-│  Think like the adversary; defend like the architect.   │
-│  → Red team rigor, blue team ownership.                  │
-│                                                          │
-│  Weakness, once named, becomes a control.                │
-│  → Find it first, fix it, then document.                │
-│                                                          │
-│  Automation scales judgment, not replaces it.           │
-│  → AI augments the operator; the operator decides.      │
-│                                                          │
-│  [Offense] informs [Defense] → [Resilient Systems]      │
-└─────────────────────────────────────────────────────────┘
+operator = StoicSecurity()
+# [!] Operational Philosophy: Think like the adversary; defend like the architect.
 ```
 
 ---
 
-<details>
-<summary><code style="color: #00FF00;">root@MauriceOS:~$</code> <code>cat /etc/contact</code></summary>
+## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>cat /etc/network/interfaces</code>
+
+<pre style="color: #00FF00;">
+┌─[COMMUNICATION_CHANNELS]──────────────────────────────────┐
+│ 👔 LinkedIn:  <a href="https://www.linkedin.com/in/maurice-osoro/" style="color: #00FF00;">linkedin.com/in/maurice-osoro</a>              │
+│ 🌐 Portfolio: <a href="https://github.com/MauriceOS" style="color: #00FF00;">Maurice Osoro</a> (GitHub)                    │
+│ 🔑 GPG:       0x60B172669D4B329C (60B1 7266 9D4B 329C DB99 CB06 F1BC 40DF 12A3 D362) │
+└───────────────────────────────────────────────────────────┘
+</pre>
+
+---
+
+## <code style="color: #00FF00;">root@MauriceOS:~$</code> <code>tail -f /var/log/achievements</code>
+
+<pre style="color: #00FF00;">
+[OK] OSCP - Offensive Security Certified Professional
+[OK] BSc Cybersecurity - IU International University (In Progress)
+[OK] Software Engineering - PLP Academy
+[OK] Pentester - Active Security Research & Bug Bounty
+</pre>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=slice&color=auto&height=20&section=footer" width="100%" alt="" />
+</p>
+
+<pre style="color: #00FF00;" align="center">
+[SESSION_STATUS] OPERATIONAL | [MODE] STEALTH | [ENCRYPTION] ACTIVE
+</pre>
 
 <div align="center">
-  
-  <pre style="color: #00FF00;">
-┌─[CONTACT_CHANNELS]────────────────────────────────┐
-│ [GitHub]   <a href="https://github.com/MauriceOS" style="color: #00FF00;">github.com/MauriceOS</a>                   │
-│ [LinkedIn] <a href="https://www.linkedin.com/in/maurice-osoro/" style="color: #00FF00;">linkedin.com/in/maurice-osoro/</a>            │
-│ [GPG]      Use GPG for sensitive communications  │
-└────────────────────────────────────────────────┘
-  </pre>
-  
-  <sub><span style="color: #00FF00;">[*]</span> Interfacing via secure channel...</sub>
-  
-</div>
 
-</details>
-
----
-
-<div align="center">
-  
   ```
   ════════════════════════════════════════════════════════
   [DISCLAIMER]
@@ -175,13 +98,5 @@ operator = RedTeamer()
   educational and authorized testing purposes only.
   ════════════════════════════════════════════════════════
   ```
-  
-  <pre style="color: #00FF00;">
-┌─[SESSION_STATUS]────────────────────────────────────┐
-│ [STATUS] OPERATIONAL                                │
-│ [MODE] STEALTH                                      │
-│ [ENCRYPTION] ACTIVE                                 │
-└────────────────────────────────────────────────────┘
-  </pre>
-  
+
 </div>
