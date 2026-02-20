@@ -1,19 +1,18 @@
 # [ 0xMauriceOS ]
 
 ```text
-       _..._
-     .'     '.      [!] ENCRYPTED UPLINK ESTABLISHED
-    /  _   _  \     [!] NODE: DARWIN_X64_PRO
-    | (o) (o) |     [!] AUTH: OSCP_OPERATOR_0x534F
-    |    _    |     [!] TARGETING: GLOBAL_RESILIENCE
-    |   (_)   |     
-    \         /     "Expose the weakness. Build the wall."
-     '. ___ .'      
+       .---.
+      /     \       [!] UPLINK: DARWIN_X64_PRO
+      | (X) |       [!] STATUS: UNTRACEABLE
+      \  _  /       [!] SESSION: 0x534F_ARCHITECT
+       '---'        
+  
+[MSG] :: "The breach is the teacher. Silence is the control."
 ```
 
 ```text
-[!] SESSION_ESTABLISHED :: AES-256-GCM
-[!] INTEGRITY_CHECK     :: 0x000000 (PASSED)
+[!] INCOMING ENCRYPTED STREAM...
+[!] DECRYPTING [####################] 100%
 ```
 
 ```text
@@ -24,76 +23,69 @@ The system is okay, even though it doesn't really understand the threats."
                                                        ~ Maurice OS
 ```
 
-### 0x00 | SYSTEM_SPECS
+### 0x00 | SYSTEM_METADATA
 
 ```text
-[SYSTEM]  Maurice Osoro
-[ROLE]    Red Team Operator | AI Security Architect
-[UPTIME]  28 Active Repositories
-[STATUS]  "Calmly breaking things (for good)"
+[ID]       Maurice Osoro
+[DEPT]     Red Team / AI Security
+[LOGS]     28 Active Nodes
+[SIG]      "Calmly breaking things (for good)"
 ```
 
-### 0x01 | BINARY_STACK
+### 0x01 | ARSENAL_ENUMERATION
 
 ```text
-[+] EXPLOITATION :  [Metasploit, Cobalt Strike, Burp Suite, Nmap]
-[+] DEVELOPMENT  :  [Python, TypeScript, Go, C++]
-[+] ENVIRONMENT  :  [Kali Linux, MacOS-Darwin, Docker, AWS]
-[+] PERSISTENCE  :  [MongoDB, PostgreSQL, Redis]
+[VECTOR_A] :  [Metasploit, Cobalt Strike, Burp Suite]
+[VECTOR_B] :  [Python, Go, C++, TypeScript]
+[VECTOR_C] :  [Kali, Darwin, AWS, Docker]
+[VECTOR_D] :  [NoSQL/RDBMS Persistence]
 ```
 
-### 0x02 | TARGET_LOG
+### 0x02 | PROJECT_MANIFEST (Restricted)
 
 ```text
-SEGMENT        OPERATION        STATUS              VECTOR
+HEX_REF        IDENT            STATE               LAYER
 ----------     ---------        -------------       ------
-0x4E2A         snaktox          DEPLOYED            AI-Response/SSA
-0x7B1C         Elimu-SMS        BUILDING            System-Arch
-0x9D0F         AI-Pentest       RESEARCH            Automated-Recon
-0xC43D         Toolkit-OST      OPERATIONAL         Security-Core
+0x4E2A         snaktox          DEPLOYED            AI-Emergency
+0x7B1C         Elimu-SMS        STABILIZING         Edu-Core
+0x9D0F         AI-Pentest       ACTIVE_INTEL        Recon-Auto
+0xC43D         Toolkit-OST      DISTRIBUTED         Red-Core
 ```
 
-### 0x03 | RESILIENCE_LOGIC
+### 0x03 | HEURISTICS
 
 ```python
-#!/usr/bin/env python3
-# Core logic: Expose weakness to build strength.
+# Low-level entropy management.
+# Expose to strengthen.
 
-def strengthen(system):
-    """
-    Control identification through methodical entropy.
-    Love the breach; it reveals the path.
-    """
-    for vuln in system.scan():
-        if vuln.is_named():
-            system.apply_control(vuln)
-        yield "STABILITY++"
-
-# [Offense] informs [Defense] -> [Resilient Systems]
+def protocol_amor_fati(node):
+    while node.vulnerable:
+        # Weakness, once named, becomes a control.
+        path = node.identify_breach()
+        node.patch_and_evolve(path)
+        yield 0x01 # STABILITY_UP
 ```
 
-### 0x04 | SECURE_CHANNELS
+### 0x04 | SECURE_HANDSHAKE
 
 ```text
 [GPG_FP]   : 0x60B172669D4B329C (60B1 7266 9D4B 329C DB99 CB06 F1BC 40DF 12A3 D362)
-[LINKEDIN] : https://linkedin.com/in/maurice-osoro
-[CANARY]   : No warrants received. No keys surrendered. Last Check: 2026-02-21
+[MSG_ENC]  : 53 65 6e 64 20 61 20 64 6d 20 6f 6e 20 4c 69 6e 6b 65 64 49 6e
+[CANARY]   : No warrants. No compromises. Last Pulse: 2026-02-21
 ```
 
-### 0x05 | AUDIT_TRAIL
+### 0x05 | LOG_TRAIL
 
 ```text
-ADDR_OFFSET    EVENT_LOG
------------    ---------
-[0x0001]       INF: OSCP Verification complete.
-[0x0002]       INF: Systematic data reorganization (Academic/Tech) in progress.
-[0x0003]       MSG: Analyzing target defenses... System behavior remains stable.
-[0x0004]       ERR: Entropy detected. Applying fortitude.
+[0x0001] [OK] OSCP_VALIDATED
+[0x0002] [..] SYSTEMATIC_LEARNING_IN_PROGRESS_
+[0x0003] [OK] DEFENSIVE_BEHAVIOR_ANALYSIS_COMPLETE
+[0x0004] [!!] ENTROPY_DETECTED_APPLYING_RESILIENCE
 ```
 
 ```text
 ------------------------------------------------------------
-[!] SESSION PERSISTENT.
-[!] DISCONNECT TO WIPE CACHE.
+[!] 48 61 63 6b 20 74 68 65 20 70 6c 61 6e 65 74 2e
+[!] CACHE_PURGED. 
 ------------------------------------------------------------
 ```
