@@ -1,0 +1,29 @@
+name: Operator Heartbeat
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'  # Runs every Monday at midnight UTC
+  workflow_dispatch:      # Allows you to run it manually
+
+permissions:
+  contents: write
+
+jobs:
+  update-canary:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Update Canary Pulse
+        run: |
+          echo "[!] LAST_PULSE: $(date +'%Y-%m-%d %H:%M:%S') UTC" > pulse.log
+          echo "[!] STATUS: NO_COMPROMISE_DETECTED" >> pulse.log
+
+      - name: Commit Pulse
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Sentinel-Bot"
+          git add pulse.log
+          git commit -m "SEC: Heartbeat pulse detected [$(date +'%Y-%m-%d')]" || exit 0
+          git push
