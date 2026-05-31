@@ -1,79 +1,89 @@
 # [ 0xMauriceOS ]
 
+<p align="center">
+  <img src="./assets/hero-ascii.png" alt="ASCII art" width="520" />
+</p>
+
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img
+      src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=520&lines=cpointed+scan+--fingerprint;hosting+panel+%2B+WordPress+CVE+modules;OSCP+%C2%B7+red+team+%C2%B7+authorized+use+only;calmly+breaking+things+%28for+good%29"
+      alt="Typing terminal"
+    />
+  </a>
+</p>
+
 ```text
-       .---.
-      /     \       [!] UPLINK: DARWIN_X64_PRO
-      | (X) |       [!] STATUS: UNTRACEABLE
-      \  _  /       [!] SESSION: 0x534F_ARCHITECT
-       '---'        
-  
 [MSG] :: "The breach is the teacher. Silence is the control."
 ```
 
 ```text
-[!] INCOMING ENCRYPTED STREAM...
-[!] DECRYPTING [####################] 100%
+operator@mauriceos:~$ cpointed --no-banner scan --host $TARGET --fingerprint
+[*] loading module surface ...
+operator@mauriceos:~$ _
 ```
+
+### 0x00 | OPERATOR
 
 ```text
-"What's security? I don't know. When I'm looking at a system's defenses,
-I think 'Whoa! This system has no idea what it's defending against!'
-And yet, what does the system do? It does the best it can.
-The system is okay, even though it doesn't really understand the threats."
-                                                       ~ Maurice OS
+[ID]   Maurice Osoro
+[DEPT] Red Team / Offensive Security
+[SIG]  "Calmly breaking things (for good)"
+[CERT] OSCP
 ```
 
-### 0x00 | SYSTEM_METADATA
+### 0x01 | STACK
 
 ```text
-[ID]       Maurice Osoro
-[DEPT]     Red Team / AI Security
-[LOGS]     28 Active Nodes
-[SIG]      "Calmly breaking things (for good)"
+[OFFSEC]  Burp Suite · Metasploit · custom Python tooling
+[CODE]    Python · Go · TypeScript · C++
+[OPS]     Kali · Linux · AWS · Docker
+[DATA]    SQL / NoSQL persistence & reporting
 ```
 
-### 0x01 | BINARY_STACK
+### 0x02 | TOOLING
+
+**[cpointed](https://github.com/MauriceOS/cpointed-framework)** — hosting control-panel & WordPress offensive framework (CVE-labelled `scan` / gated `exploit`, TUI, JSON & HTML reports).
 
 ```text
-[VECTOR_A] :  [Metasploit, Cobalt Strike, Burp Suite]
-[VECTOR_B] :  [Python, Go, C++, TypeScript]
-[VECTOR_C] :  [Kali, Darwin, AWS, Docker]
-[VECTOR_D] :  [NoSQL/RDBMS Persistence]
+$ cpointed scan --host TARGET --fingerprint --wordpress
+$ cpointed exploit --cve CVE-XXXX-XXXX --host TARGET   # authorized + CPOINTED_AUTHORIZED=1
 ```
 
-### 0x02 | PROJECT_MANIFEST (Restricted)
+<details>
+<summary><code>[+] other builds (expand)</code></summary>
 
 ```text
-HEX_REF        IDENT            STATE               LAYER
-----------     ---------        -------------       ------
-0x4E2A         snaktox          DEPLOYED            AI-Emergency
-0x7B1C         Elimu-SMS        STABILIZING         Edu-Core
-0x9D0F         AI-Pentest       ACTIVE_INTEL        Recon-Auto
-0xC43D         Toolkit-OST      DISTRIBUTED         Red-Core
+snaktox            AI-emergency workflows
+Elimu-SMS          education platform core
+AI-Pentest         recon automation
+Toolkit-OST        red-team toolkit distribution
 ```
+
+</details>
 
 ### 0x03 | SECURE_HANDSHAKE
 
 ```text
-[PUB_KEY]  : ./GPG.txt
-[GPG_FP]   : 0x60B172669D4B329C (60B1 7266 9D4B 329C DB99 CB06 F1BC 40DF 12A3 D362)
-[MSG_ENC]  : 53 65 6e 64 20 61 20 64 6d 20 6f 6e 20 4c 69 6e 6b 65 64 49 6e
-[CANARY]   : [VERIFIED] No warrants. No compromises.
-             Last Pulse: [pulse.log](pulse.log)
+[PUB_KEY] : ./GPG.txt
+[GPG_FP]  : 0x60B172669D4B329C
+            60B1 7266 9D4B 329C DB99 CB06 F1BC 40DF 12A3 D362
+[PULSE]   : see pulse.log (weekly heartbeat)
+```
+
+```text
+[!] LAST_PULSE (live): pulse.log
 ```
 
 ### 0x04 | LOG_TRAIL
 
 ```text
 [0x0001] [OK] OSCP_VALIDATED
-[0x0002] [..] SYSTEMATIC_LEARNING_IN_PROGRESS_
-[0x0003] [OK] DEFENSIVE_BEHAVIOR_ANALYSIS_COMPLETE
-[0x0004] [!!] ENTROPY_DETECTED_APPLYING_RESILIENCE
+[0x0002] [..] BUILDING_OFFENSIVE_TOOLING (cpointed)
+[0x0003] [OK] PANEL_AND_WP_ASSESSMENT_WORKFLOWS
+[0x0004] [>>] AUTHORIZED_RESEARCH_ONLY
 ```
 
-```text
-------------------------------------------------------------
-[!] 48 61 63 6b 20 74 68 65 20 70 6c 61 6e 65 74 2e
-[!] CACHE_PURGED. 
-------------------------------------------------------------
-```
+<p align="center">
+  <sub>encrypted comms welcome · <a href="./GPG.txt">GPG.txt</a> · <a href="./pulse.log">pulse.log</a></sub>
+</p>
