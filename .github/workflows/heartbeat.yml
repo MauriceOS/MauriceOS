@@ -3,7 +3,7 @@ name: Operator Heartbeat
 on:
   schedule:
     - cron: '0 0 * * 1'  # Runs every Monday at midnight UTC
-  workflow_dispatch:      # Allows you to run it manually
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -15,15 +15,38 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Update Canary Pulse
+      - name: Update pulse.log and README
         run: |
-          echo "[!] LAST_PULSE: $(date +'%Y-%m-%d %H:%M:%S') UTC" > pulse.log
-          echo "[!] STATUS: NO_COMPROMISE_DETECTED" >> pulse.log
+          PULSE="$(date -u +'%Y-%m-%d %H:%M:%S')"
+          {
+            echo "[!] LAST_PULSE: ${PULSE} UTC"
+            echo "[!] STATUS: NO_COMPROMISE_DETECTED"
+          } > pulse.log
+          python3 <<'PY'
+          import re
+          from pathlib import Path
+          pulse = Path("pulse.log").read_text(encoding="utf-8").strip()
+          body = "\n".join(f"{line}" for line in pulse.splitlines())
+          readme = Path("README.md")
+          text = readme.read_text(encoding="utf-8")
+          replacement = (
+              "<!-- PULSE:START -->\n"
+              "```text\n"
+              f"{body}\n"
+              "```\n"
+              "<!-- PULSE:END -->"
+          )
+          pattern = r"<!-- PULSE:START -->.*?<!-- PULSE:END -->"
+          new_text, n = re.subn(pattern, replacement, text, count=1, flags=re.DOTALL)
+          if n != 1:
+              raise SystemExit("PULSE markers not found in README.md")
+          readme.write_text(new_text, encoding="utf-8")
+          PY
 
       - name: Commit Pulse
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Sentinel-Bot"
-          git add pulse.log
-          git commit -m "SEC: Heartbeat pulse detected [$(date +'%Y-%m-%d')]" || exit 0
+          git add pulse.log README.md
+          git commit -m "SEC: Heartbeat pulse detected [$(date -u +'%Y-%m-%d')]" || exit 0
           git push

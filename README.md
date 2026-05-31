@@ -5,12 +5,20 @@
 </p>
 
 <p align="center">
+  <img src="./assets/boot.svg" alt="Boot sequence" width="520" />
+</p>
+
+<p align="center">
   <a href="https://git.io/typing-svg">
     <img
       src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=520&lines=cpointed+scan+--fingerprint;hosting+panel+%2B+WordPress+CVE+modules;OSCP+%C2%B7+red+team+%C2%B7+authorized+use+only;calmly+breaking+things+%28for+good%29"
       alt="Typing terminal"
     />
   </a>
+</p>
+
+<p align="center">
+  <img src="./assets/cpointed-demo.gif" alt="cpointed CLI demo" width="520" />
 </p>
 
 ```text
@@ -58,12 +66,14 @@ Toolkit-OST     # red-team toolkit distribution
 [PUB_KEY] : ./GPG.txt
 [GPG_FP]  : 0x60B172669D4B329C
             60B1 7266 9D4B 329C DB99 CB06 F1BC 40DF 12A3 D362
-[PULSE]   : see pulse.log (weekly heartbeat)
 ```
 
+<!-- PULSE:START -->
 ```text
-[!] LAST_PULSE (live): pulse.log
+[!] LAST_PULSE: 2026-05-25 02:07:11 UTC
+[!] STATUS: NO_COMPROMISE_DETECTED
 ```
+<!-- PULSE:END -->
 
 ### 0x04 | LOG_TRAIL
 
