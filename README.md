@@ -18,15 +18,15 @@
 ```
 
 ```text
-operator@mauriceos:~$ cpointed --no-banner scan --host $TARGET --fingerprint
+operator@sn0w8ird:~$ cpointed --no-banner scan --host $TARGET --fingerprint
 [*] loading module surface ...
-operator@mauriceos:~$ _
+operator@sn0w8ird:~$ _
 ```
 
 ### 0x00 | OPERATOR
 
 ```text
-[ID]   Maurice Osoro
+[ID]   Sn0w8irD
 [DEPT] Red Team / Offensive Security
 [SIG]  "Calmly breaking things (for good)"
 [CERT] OSCP
@@ -41,26 +41,26 @@ operator@mauriceos:~$ _
 [DATA]    SQL / NoSQL persistence & reporting
 ```
 
-### 0x02 | TOOLING
+### 0x02 | BUILDS
 
-**[cpointed](https://github.com/MauriceOS/cpointed-framework)** — hosting control-panel & WordPress offensive framework (CVE-labelled `scan` / gated `exploit`, TUI, JSON & HTML reports).
+Offensive-security tools by **Sn0w8irD** (authorized use only):
+
+```text
+IDENT         ROLE                                      LINK
+-----------   ----------------------------------------  ------------------
+cpointed      hosting panel / WordPress CVE framework   github.com/MauriceOS/cpointed-framework
+snaktox       AI-emergency workflows
+Elimu-SMS     education platform core
+AI-Pentest    recon automation
+Toolkit-OST   red-team toolkit distribution
+```
+
+→ [cpointed-framework](https://github.com/MauriceOS/cpointed-framework)
 
 ```text
 $ cpointed scan --host TARGET --fingerprint --wordpress
-$ cpointed exploit --cve CVE-XXXX-XXXX --host TARGET   # authorized + CPOINTED_AUTHORIZED=1
+$ cpointed exploit --cve CVE-XXXX-XXXX --host TARGET   # CPOINTED_AUTHORIZED=1
 ```
-
-<details>
-<summary><code>[+] other builds (expand)</code></summary>
-
-```text
-snaktox            AI-emergency workflows
-Elimu-SMS          education platform core
-AI-Pentest         recon automation
-Toolkit-OST        red-team toolkit distribution
-```
-
-</details>
 
 ### 0x03 | SECURE_HANDSHAKE
 
@@ -79,7 +79,7 @@ Toolkit-OST        red-team toolkit distribution
 
 ```text
 [0x0001] [OK] OSCP_VALIDATED
-[0x0002] [..] BUILDING_OFFENSIVE_TOOLING (cpointed)
+[0x0002] [OK] OFFENSIVE_TOOLING_SHIPPED (cpointed + builds above)
 [0x0003] [OK] PANEL_AND_WP_ASSESSMENT_WORKFLOWS
 [0x0004] [>>] AUTHORIZED_RESEARCH_ONLY
 ```
