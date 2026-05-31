@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/boot.svg" alt="Boot sequence" width="520" />
+  <img src="./assets/boot.gif" alt="Boot sequence" width="520" />
 </p>
 
 <p align="center">
