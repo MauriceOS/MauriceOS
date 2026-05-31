@@ -43,23 +43,13 @@ operator@sn0w8ird:~$ _
 
 ### 0x02 | BUILDS
 
-Offensive-security tools by **Sn0w8irD** (authorized use only):
-
 ```text
-IDENT         ROLE                                      LINK
------------   ----------------------------------------  ------------------
-cpointed      hosting panel / WordPress CVE framework   github.com/MauriceOS/cpointed-framework
-snaktox       AI-emergency workflows
-Elimu-SMS     education platform core
-AI-Pentest    recon automation
-Toolkit-OST   red-team toolkit distribution
-```
-
-→ [cpointed-framework](https://github.com/MauriceOS/cpointed-framework)
-
-```text
-$ cpointed scan --host TARGET --fingerprint --wordpress
-$ cpointed exploit --cve CVE-XXXX-XXXX --host TARGET   # CPOINTED_AUTHORIZED=1
+operator@sn0w8ird:~/builds$ ls -1
+cpointed        # panel / WordPress CVE modules  → github.com/MauriceOS/cpointed-framework
+snaktox         # AI-emergency workflows
+Elimu-SMS       # education platform core
+AI-Pentest      # recon automation
+Toolkit-OST     # red-team toolkit distribution
 ```
 
 ### 0x03 | SECURE_HANDSHAKE
