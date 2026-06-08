@@ -70,7 +70,7 @@ Toolkit-OST     # red-team toolkit distribution
 
 <!-- PULSE:START -->
 ```text
-[!] LAST_PULSE: 2026-06-01 02:29:36 UTC
+[!] LAST_PULSE: 2026-06-08 02:29:40 UTC
 [!] STATUS: NO_COMPROMISE_DETECTED
 ```
 <!-- PULSE:END -->
