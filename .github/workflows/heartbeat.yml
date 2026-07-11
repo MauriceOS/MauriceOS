@@ -15,39 +15,19 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Update pulse.log and README
+      - name: Update pulse.log
         run: |
           PULSE="$(date -u +'%Y-%m-%d %H:%M:%S')"
           {
             echo "[!] LAST_CHECKIN: ${PULSE} UTC"
             echo "[!] STATUS: profile heartbeat active"
           } > pulse.log
-          python3 <<'PY'
-          import re
-          from pathlib import Path
-          pulse = Path("pulse.log").read_text(encoding="utf-8").strip()
-          body = "\n".join(pulse.splitlines())
-          readme = Path("README.md")
-          text = readme.read_text(encoding="utf-8")
-          replacement = (
-              "<!-- PULSE:START -->\n"
-              "```text\n"
-              f"{body}\n"
-              "```\n"
-              "<!-- PULSE:END -->"
-          )
-          pattern = r"<!-- PULSE:START -->.*?<!-- PULSE:END -->"
-          new_text, n = re.subn(pattern, replacement, text, count=1, flags=re.DOTALL)
-          if n != 1:
-              raise SystemExit("PULSE markers not found in README.md")
-          readme.write_text(new_text, encoding="utf-8")
-          PY
 
       - name: Commit Pulse
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Sentinel-Bot"
-          git add pulse.log README.md
+          git add pulse.log
           git diff --staged --quiet && exit 0
           git commit -m "SEC: Profile check-in [$(date -u +'%Y-%m-%d')]"
           git push
